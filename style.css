@@ -1,45 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-*{
-    padding:0;
-    margin:0;
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
 }
-body{
-    width:100%;
+
+body {
+    width: 100%;
     height: 100vh;
-    background: linear-gradient(to right,blueviolet,darkcyan);
+    background: linear-gradient(to right, blueviolet, darkcyan);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.container{
-    width:400px;
-    height:450px;
-    padding:15px 30px;
+
+.container {
+    width: 400px;
+    height: 450px;
+    padding: 15px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     background: white;
     box-shadow: 0px 2px 10px black;
     border-radius: 8px;
 }
-.container input{
+
+.container input {
     width: 100%;
-    padding:8px;
-    border:2px solid blueviolet;
+    padding: 8px;
+    border: 2px solid blueviolet;
     border-radius: 5px;
     outline: none;
 }
-.container img{
-    width:100%;
-    height:250px;
+
+.container img {
+    width: 100%;
+    height: 250px;
     object-fit: contain;
 }
-.container button{
-    padding:8px;
+
+.container button {
+    padding: 8px;
     color: rgb(59, 88, 216);
     cursor: pointer;
     outline: none;
@@ -47,7 +53,7 @@ body{
     border-radius: 5px;
 }
 
-button:hover{
+button:hover {
     color: black;
     background-color: rgb(100, 233, 100);
 }
