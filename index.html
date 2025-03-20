@@ -4,27 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Generator</title>
+    <title>QR Code Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="text">Welcome to QR Generator</h1>
-
-        <div class="input">
-            <p>Paste your URL or Text to create QR-Code</p>
-            <input type="url" name="uri" id="uri" placeholder="URL">
-
-            <button class="btn">Generate QR-Code</button>
-        </div>
-
-        <footer>
-            <p id="rights">&copy; 2025 vijayI6. All rights are reserved.</p>
-        </footer>
-
+        <h2>QR Code Generator</h2>
+        <input id="data" type="text" placeholder="Name or URL">
+        <img id="qrcode" src="https://blog.tcea.org/wp-content/uploads/2022/05/qrcode_tcea.org-1.png">
+        <button id="btnGet">Generate</button>
     </div>
-
     <script src="main.js"></script>
 </body>
 
