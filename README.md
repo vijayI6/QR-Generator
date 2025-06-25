@@ -14,8 +14,8 @@ QR Code Generator is a simple and efficient web-based tool that allows users to 
 
 ## Demo
 
-You can view a live demo of the tool at [https://vijayi6.github.io/QR-Generator/
-](https://vijayi6.github.io/QR-Generator/)
+You can view a live demo of the tool at [https://vijayi6.github.io/qr-generator/
+](https://vijayi6.github.io/qr-generator/)
 
 ## Features
 
